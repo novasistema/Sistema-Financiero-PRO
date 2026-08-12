@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "sistema": {
+      "title": "Sistema Data",
+      "description": "Financial system data including transactions, contacts, balances, and savings.",
+      "type": "object",
+      "properties": {
+        "ingresos": { "type": "array" },
+        "gastos": { "type": "array" },
+        "compras": { "type": "array" },
+        "empleados": { "type": "array" },
+        "adelantos": { "type": "array" },
+        "movimientos": { "type": "array" },
+        "cuentas": { "type": "array" },
+        "clientes": { "type": "array" },
+        "proveedores": { "type": "array" },
+        "saldos": { "type": "object" },
+        "ahorros": { "type": "object" },
+        "cotizacionDolar": { "type": "object" },
+        "config": { "type": "object" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["ingresos", "gastos", "compras", "saldos", "ahorros"]
+    }
+  }
+}

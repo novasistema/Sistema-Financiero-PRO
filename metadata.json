@@ -1,0 +1,6 @@
+{
+  "name": "Sistema Financiero",
+  "description": "Sistema de gestión financiera integral con pesificación USD, control de ingresos, gastos, compras, empleados, cuentas, clientes, proveedores, saldos y exportación a Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
